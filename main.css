@@ -1,0 +1,176 @@
+/*CSS reset settings here*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+    font-family: 'Abel', sans-serif;
+    
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+
+
+.col-sm{
+
+border: 2px solid black;
+}
+
+div.container{
+    
+    width: 1000px;
+    border:10px solid black;
+    border-radius: 30px;
+    
+
+}
+div.container h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#info{
+    display: flex;
+    margin: 0px;
+
+    
+    
+}
+#info p {
+    margin-left: 10px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+div.container button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: coral;
+}
+
+
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: #e40707;
+    border-radius: 30px;
+    padding: 10px;
+    
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    
+    }
+    
+
+    .inside{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(97, 96, 96);
+    border-radius: 100%;
+    
+    
+    border: 2px solid rgb(0, 0, 0);
+    }
+
+    .screen{
+        margin-top: 10px;
+        border:5px solid black; 
+        width: 500px;
+        height: 300px;
+        display: inline-flex;
+
+    }
+    #pokeId{
+        margin-top: 5px;
+        width: 300px;
+        border: 2px solid green;
+        overflow:auto;
+        list-style: none;
+        padding-left: 10px;
+
+    }
+    #post{
+        list-style: none;
+        width: 300px;
+        height: 300px;
+        overflow:auto;
+    }
+    #post li{
+        font-weight:900;
+    }
+
+    #break{
+        display: flex;
+        justify-content: center;
+    }
+#info p{
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.title{
+    display: flex; 
+    justify-content: center;
+}
+    
